@@ -1,0 +1,64 @@
+body {
+	background-color: lightblue;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 400px;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fieldset {
+	width: 280.875px;
+	border: none;
+	padding: 0;
+
+}
+
+.email_label {
+	display: block;
+}
+
+.email, .password {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280.875px;
+	height: 25px;
+	border-radius: 5px;
+	padding: 15px;
+
+}
+
+.email, .password {
+	border: 2px solid #DDDDDD;
+}
+
+.button {
+	width: 280.875px;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.forgot {
+	display: block;
+}
+
+.account_login {
+	text-align: center;
+}
+
